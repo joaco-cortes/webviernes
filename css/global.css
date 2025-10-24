@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(184, 41, 31);
+}
+
+.fuenteTitulo {
+    font-family: "Righteous", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.blanco {
+    color: #ffffff
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.fuenteTercerTitulo {
+    color:white;
+    text-align: left;
+    text-shadow: 1px 0px 2px black;
+}
+
+.fuenteSubtitulosFooters {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 0px 2px black;
+}
+
+.textos{
+    color: white;
+    text-align: left;
+}
+
+.personalizarTitulo {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
+}
+
+nav {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+nav a {
+    color: white;
+}
+
+#FotoInicio{
+    height: 450px;
+    border: solid 2px black;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.fotoCarnet {
+    height: 150px;
+    width: 150px;
+    border: solid 3px black
+}
+
+.articulos {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 460px;
+    padding: 30px 30px;
+    border: solid 2px black;
+}
+
+.articulos *{
+    color: black
+}
+
+hr {
+    border: solid 1px black;
+}
