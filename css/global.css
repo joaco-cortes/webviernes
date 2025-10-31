@@ -1,5 +1,6 @@
 body {
     background-color: rgb(184, 41, 31);
+    margin: 0 auto;
 }
 
 .fuenteTitulo {
@@ -23,7 +24,7 @@ body {
 }
 
 .fuenteSubtitulosFooters {
-    color: white;
+    color: black;
     text-align: center;
     text-shadow: 1px 0px 2px black;
 }
@@ -41,16 +42,21 @@ body {
 }
 
 nav {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    
-}
+    a {
+        color: white;
+        margin: 0 10px;
+        padding: 0 5px;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: blue;
+        border-radius: 10px;
+        padding: 0 5px;
 
-nav a {
-    color: white;
+    }
 }
 
 #FotoInicio{
@@ -68,13 +74,24 @@ nav a {
     border: solid 3px black
 }
 
+.seccion {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .articulos {
     background-color: white;
     border-radius: 15px;
-    margin: 15px 460px;
+    width: 50%;
+    max-width: 50%;
     padding: 30px 30px;
     border: solid 2px black;
+    min-width: 300px;
+    margin: 5px 0;
 }
+
 
 .articulos *{
     color: black
@@ -83,3 +100,11 @@ nav a {
 hr {
     border: solid 1px black;
 }
+
+footer {
+    background-color: white;
+    border-top: solid 2px black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
