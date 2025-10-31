@@ -1,0 +1,32 @@
+.contenedorGrid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-areas: "filadelfia filadelfia"
+    "estatua rockybalboa";
+    gap: 10px;
+    img {
+        width: 100%;
+        height: 100%;
+        border: solid 2px black;
+        border-radius: 10px;
+    }
+    img:hover {
+        border: solid 2px blue;
+        cursor:pointer;
+    }
+}
+
+
+#filadelfia {
+    grid-area: filadelfia;
+}
+
+#estatua {
+    grid-area: estatua;
+}
+
+#rockybalboa {
+    grid-area: rockybalboa;
+}
