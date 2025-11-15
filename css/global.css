@@ -156,5 +156,19 @@ form{
     }
 }
 
+.envio {
+    color: green;
+    font-size: 30px;
+}
 
+.Rockyconlacamara {
+    display: flex;
+    justify-content: center;
+}
+
+#RockyCamara {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
 
