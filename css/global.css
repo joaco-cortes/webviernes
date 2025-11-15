@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(184, 41, 31);
     margin: 0 auto;
 }
+
 
 .fuenteTitulo {
     font-family: "Righteous", sans-serif;
@@ -21,12 +27,14 @@ body {
     color:white;
     text-align: left;
     text-shadow: 1px 0px 2px black;
+    margin: 20px 0;
 }
 
 .fuenteSubtitulosFooters {
     color: black;
     text-align: center;
     text-shadow: 1px 0px 2px black;
+    margin-bottom: 20px;
 }
 
 .textos{
@@ -57,9 +65,8 @@ nav {
         background-color: blue;
         border-radius: 10px;
         padding: 0 5px;
-
     }
-    
+    margin-top: 30px;
 }
 
 #FotoInicio{
@@ -102,12 +109,13 @@ nav {
 
 hr {
     border: solid 1px black;
+    margin: 20px 0;
 }
 
 footer {
     background-color: white;
     border-top: solid 2px black;
-    margin-top: 5px;
+    margin-top: 80px;
     padding: 5px;
 }
 
@@ -120,3 +128,33 @@ footer {
     }
     
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+        width: 50%;
+        height: 25px;
+        min-width: 250px;
+    }
+    input:hover, textarea:hover {
+        border-color: blue;
+        border-radius: 5px;
+    }
+
+    textarea {
+        resize: none;
+        width: 50%;
+        height: 150px;
+        min-width: 250px;
+    }
+    button {
+        width: 50%;
+        margin-top: 15px;
+        height: 30px;
+    }
+}
+
+
+
