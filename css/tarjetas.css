@@ -1,0 +1,36 @@
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    
+    figure {
+        width: 25%;
+        margin: 10px;
+        padding: 30px;
+        min-width: 200px;
+        background-color: red;
+        border: solid 3px black;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        img {
+            width: 100%;
+        }
+        figcaption {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        p {
+            margin-top: 10px;
+            color:black;
+            text-align: left;
+            font-weight: 600;
+        }
+    }
+
+    figure:hover {
+        border: solid 3px blue;
+    }
+}
+

@@ -102,6 +102,22 @@ nav {
     margin: 5px 0;
 }
 
+.articulo-error {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    padding: 30px 30px;
+    border: solid 2px black;
+    align-items: center;
+    p {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.articulo-error:hover{
+    border: solid 2px blue;
+}
 
 .articulos *{
     color: black
@@ -117,6 +133,7 @@ footer {
     border-top: solid 2px black;
     margin-top: 80px;
     padding: 5px;
+    width: 100%;
 }
 
 .trailer {
@@ -174,5 +191,32 @@ form{
 
 .tituloError {
     color: red;
-    font-size: 10rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fondo-rocky{
+    background-image: url(../img/RockyApollo.avif);
+    background-size: cover;
+}
+
+.botonVolver {
+    display: flex;
+    border: solid 2px black;
+    padding: 4px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: medium;
+}
+
+.botonVolver:hover {
+    border: solid 2px black;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
