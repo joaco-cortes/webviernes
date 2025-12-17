@@ -63,8 +63,11 @@
         height: 250px;
     }
 
-    articulo-error {
-        width: 90%
+    .articulo-error {
+        width: 85%
+        p {
+            font-size: 20px;
+        }
     }
 }
 
